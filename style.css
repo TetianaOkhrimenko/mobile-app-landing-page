@@ -34,6 +34,7 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
   padding: 120px 100px 120px 120px;
+  margin-bottom: 40px;
 }
 
 .features {
@@ -139,6 +140,63 @@ p {
 
 .hero-item img {
   margin-bottom: 22px;
+}
+
+.video-block {
+  height: 640px;
+  position: relative;
+}
+
+.video-block .text-content {
+  background-image: url(/images/background-video-block.png);
+  background-size: cover;
+  height: 477px;
+  padding: 120px 448px 0 445px;
+}
+
+.video-block h3 {
+  font-weight: 700;
+  font-size: 31.25px;
+  line-height: 47px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 23px;
+}
+
+.video-block p {
+  text-align: center;
+}
+
+.video-content {
+  width: 50%;
+  height: auto;
+  position: absolute;
+  top: 320px;
+  right: 390px;
+}
+
+.video-block video {
+  max-width: 100%;
+  height: auto;
+}
+
+video[poster] {
+  border-radius: 10px;
+}
+
+.play-video {
+  width: 70px;
+  height: 70px;
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  position: absolute;
+  top: 123px;
+  right: 349px;
 }
 
 @media (min-width: 401px) and (max-width: 770px) {
