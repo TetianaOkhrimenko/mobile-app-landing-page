@@ -18,6 +18,11 @@
           amet etiam tincidunt rhoncus, ullamcorper velit. Ullamcorper risus
           tempor, ac nunc libero urna, feugiat.
         </p>
+        <p class="media-text-1">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc
+          ante velit vitae. Est tellus vitae, nullam lobortis enim. Faucibus
+          amet etiam tincidunt rhoncus.
+        </p>
         <p class="media-text">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc
           ante velit vitae.
@@ -40,8 +45,16 @@
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </div>
         <div class="image-content">
-          <img src="/images/app-image.png" alt="Mobile App" />
+          <picture>
+            <source
+              srcset="images/app-medium-2.png"
+              media="(max-width: 770px)"
+            />
+            <source srcset="/images/app-image.png" />
+            <img src="/images/app-image.png" alt="Mobile App" />
+          </picture>
         </div>
+
         <div class="hero-item version">
           <img src="/images/icon-4.svg" alt="Chat icon" />
           <h3 class="secondary-heading">iso & androind version</h3>
