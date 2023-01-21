@@ -379,4 +379,48 @@ video[poster] {
     width: 97%;
     margin: 0 auto;
   }
+
+  .video-block .text-content {
+    background-image: url(/images/background-video-small.png);
+    height: 357px;
+    padding: 60px 47px 0 47px;
+  }
+
+  .video-block h3 {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 38px;
+    margin-bottom: 40px;
+  }
+
+  .video-block p:nth-of-type(1) {
+    display: none;
+  }
+
+  .video-block p {
+    width: 300px;
+  }
+
+  .video-content {
+    width: 90%;
+    top: 291px;
+    right: 18px;
+  }
+
+  .play-video {
+    top: 32px;
+    right: 132px;
+  }
+
+  video {
+    background-size: cover;
+    background: linear-gradient(
+        0deg,
+        rgba(88, 81, 234, 0.4),
+        rgba(88, 81, 234, 0.4)
+      ),
+      url(images/video-image-2.png);
+    box-shadow: 0px 10px 100px rgba(0, 0, 0, 0.24);
+    object-fit: cover;
+  }
 }
